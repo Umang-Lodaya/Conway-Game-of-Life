@@ -27,7 +27,7 @@ Run the main Python script to start the Game of Life: ```python main.py```
 
 ## Download
 
-You can also download a standalone executable for Windows (here)["https://github.com/Umang-Lodaya/Conway-Game-of-Life/blob/main/dist/main.exe"].
+You can also download a standalone executable for Windows [here](https://github.com/Umang-Lodaya/Conway-Game-of-Life/raw/main/dist/main.exe).
 
 ## Features
 
