@@ -25,6 +25,10 @@ Run the main Python script to start the Game of Life: ```python main.py```
 - **Space Bar:** Pause/Resume the simulation.
 - **Left Mouse Button:** Draw living cells on the grid.
 
+## Download
+
+You can also download a standalone executable for Windows [here]("https://github.com/Umang-Lodaya/Conway-Game-of-Life/blob/main/dist/main.exe").
+
 ## Features
 
 - **Grid Display:** Visualizes the grid with living and dead cells.
