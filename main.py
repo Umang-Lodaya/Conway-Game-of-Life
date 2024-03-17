@@ -6,7 +6,7 @@ import numpy as np
 # PYGAME CONSTANTS
 SCREEN_SIZE = WIDTH, HEIGHT = 1200, 700
 CELL_SIZE = 20
-CELLS_SHAPE  = HEIGHT // CELL_SIZE, WIDTH // CELL_SIZE
+CELLS_SHAPE = HEIGHT // CELL_SIZE, WIDTH // CELL_SIZE
 
 # DEFINING COLORS
 COLOR_BG = (10, 10, 10)
@@ -52,6 +52,7 @@ def update(SCREEN, CELLS, SIZE, with_progress = False):
 def main():
     pygame.init()
     SCREEN = pygame.display.set_mode(SCREEN_SIZE)
+    pygame.display.set_caption("Conway's Game of Life")
     SCREEN.fill(COLOR_GRID)
 
     CELLS = np.zeros(CELLS_SHAPE)
@@ -84,6 +85,7 @@ def main():
                 pygame.display.update()
         
         SCREEN.fill(COLOR_GRID)
+        
         if runningProgress:
             CELLS = update(SCREEN, CELLS, CELL_SIZE, with_progress = True)
             pygame.display.update()
